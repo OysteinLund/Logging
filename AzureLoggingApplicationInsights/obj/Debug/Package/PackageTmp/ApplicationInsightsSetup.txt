@@ -1,0 +1,31 @@
+﻿http://dailydotnettips.com/2015/08/17/using-application-insights-right-from-the-visual-studio-2015/
+Adding Application Insights to en existing solution.
+
+
+https://blog.ehn.nu/2014/11/using-log4net-for-application-insights/
+	Microsoft.ApplicationInsights.Log4NetAppender 
+	https://www.nuget.org/packages/Microsoft.ApplicationInsights.Log4NetAppender/0.7.0
+	Installing from command line
+	https://docs.microsoft.com/en-us/nuget/tools/package-manager-console
+
+
+
+Others
+https://stackoverflow.com/questions/28800320/log4net-with-application-insights
+	Log4Net setup inside web.config
+	<configSections>
+		<section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net"/>
+	</configSections>
+	<log4net>
+
+https://github.com/Microsoft/ApplicationInsights-dotnet-logging
+
+
+Check
+	https://stackoverflow.com/questions/4542184/use-log4net-in-sdk/4542416#4542416
+
+
+Confluence:
+	https://confluence.visma.com/dosearchsite.action?queryString=Log4Net
+		https://confluence.visma.com/display/VNETFPL/How+to+log+to+centralized+logging+system+from+.NET
+		https://confluence.visma.com/display/VNETFPL/2017/03/09/Log4net+configuration+externalized
